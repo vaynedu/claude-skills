@@ -1,0 +1,19 @@
+{
+  "name": "claude-skills",
+  "description": "通用 Claude Code 技能集 — 项目讲述、技术分享素材生成",
+  "version": "1.0.0",
+  "homepage": "https://github.com/vaynedu/skills",
+  "repository": "https://github.com/vaynedu/skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "project-storytelling",
+    "interview",
+    "tech-sharing"
+  ],
+  "skills": [
+    "./project-storytelling"
+  ]
+}
+
