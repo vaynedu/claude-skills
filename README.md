@@ -9,16 +9,22 @@
 | project-storytelling | 把技术项目整理成有说服力的叙事 | "帮我讲讲这个项目"、"面试怎么讲" |
 
 ## 安装
-### 命令行
 ```bash
-claude plugin add github:vaynedu/claude-skills
+git clone https://github.com/vaynedu/claude-skills.git /tmp/cs && cp -r /tmp/cs/project-storytelling ~/.claude/skills/ && rm -rf /tmp/cs
+
+安装完成后在 Claude Code 中执行 /reload-plugins 即可生效。
+                                                                                                                             
 ```
-### claude中
+## 验证安装
 ```bash
-/plugin add github:vaynedu/claude-skills
+# 确认文件存在
+ls ~/.claude/skills/project-storytelling/SKILL.md
+
+# 在 Claude Code 中执行
+/reload-plugins
+/skills
 ```
-
-
+在 skills 列表中看到 project-storytelling 即安装成功
 
 
 ## 使用
