@@ -9,10 +9,17 @@
 | project-storytelling | 把技术项目整理成有说服力的叙事 | "帮我讲讲这个项目"、"面试怎么讲" |
 
 ## 安装
-
+### 命令行
 ```bash
-claude plugin add github:你的用户名/claude-skills
+claude plugin add github:vaynedu/claude-skills
 ```
+### claude中
+```bash
+/plugin add github:vaynedu/claude-skills
+```
+
+
+
 
 ## 使用
 
