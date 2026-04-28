@@ -41,8 +41,7 @@ ls ~/.claude/skills/project-storytelling/SKILL.md
 
 1. 在根目录创建新文件夹（如 `my-new-skill/`）
 2. 在文件夹中创建 `SKILL.md`
-3. 在 `.claude-plugin/plugin.json` 的 `skills` 数组中添加路径
-4. 提交并推送到 GitHub
+3. 提交并推送到 GitHub
 
 ## License
 
